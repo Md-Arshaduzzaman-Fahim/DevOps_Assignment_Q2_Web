@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-07T15:19:06Z" name="Ajker Patrika Test Suite" finished-at="2024-09-07T15:20:34Z" duration-ms="88278">
+    <groups>
+    </groups>
+    <test started-at="2024-09-07T15:19:06Z" name="Ajker Patrika Login Test" finished-at="2024-09-07T15:19:37Z" duration-ms="31035">
+      <class name="com.qa.ajkerpatrika.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.LoginPageTest@2f1ea80d]" started-at="2024-09-07T15:19:06Z" name="setup" finished-at="2024-09-07T15:19:17Z" duration-ms="11497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.LoginPageTest@2f1ea80d]" started-at="2024-09-07T15:19:17Z" name="loginPageSetup" finished-at="2024-09-07T15:19:19Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="2066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSetup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.LoginPageTest@2f1ea80d]" started-at="2024-09-07T15:19:19Z" name="loginPageTitleTest" finished-at="2024-09-07T15:19:20Z" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageForgotpsswdLinkTest()[pri:2, instance:com.qa.ajkerpatrika.tests.LoginPageTest@2f1ea80d]" started-at="2024-09-07T15:19:20Z" name="loginPageForgotpsswdLinkTest" finished-at="2024-09-07T15:19:21Z" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageForgotpsswdLinkTest -->
+        <test-method signature="loginPageRegisterLinkTest()[pri:3, instance:com.qa.ajkerpatrika.tests.LoginPageTest@2f1ea80d]" started-at="2024-09-07T15:19:21Z" name="loginPageRegisterLinkTest" finished-at="2024-09-07T15:19:21Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageRegisterLinkTest -->
+        <test-method signature="loginTest()[pri:4, instance:com.qa.ajkerpatrika.tests.LoginPageTest@2f1ea80d]" started-at="2024-09-07T15:19:21Z" name="loginTest" finished-at="2024-09-07T15:19:36Z" duration-ms="14498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.LoginPageTest@2f1ea80d]" started-at="2024-09-07T15:19:36Z" name="tearDown" finished-at="2024-09-07T15:19:37Z" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ajkerpatrika.tests.LoginPageTest -->
+    </test> <!-- Ajker Patrika Login Test -->
+    <test started-at="2024-09-07T15:19:37Z" name="Ajker Patrika Home Page Test" finished-at="2024-09-07T15:19:55Z" duration-ms="18479">
+      <class name="com.qa.ajkerpatrika.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:37Z" name="setup" finished-at="2024-09-07T15:19:43Z" duration-ms="5881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="homePageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:43Z" name="homePageSetup" finished-at="2024-09-07T15:19:44Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetup -->
+        <test-method signature="getHomePageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:44Z" name="getHomePageTitleTest" finished-at="2024-09-07T15:19:44Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageTitleTest -->
+        <test-method signature="mainMenuListTest()[pri:2, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:44Z" name="mainMenuListTest" finished-at="2024-09-07T15:19:44Z" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuListTest -->
+        <test-method signature="isMoreMenuBtnExistTest()[pri:3, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:44Z" name="isMoreMenuBtnExistTest" finished-at="2024-09-07T15:19:44Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMoreMenuBtnExistTest -->
+        <test-method signature="mostRedListTest()[pri:4, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:44Z" name="mostRedListTest" finished-at="2024-09-07T15:19:44Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mostRedListTest -->
+        <test-method signature="divListTest()[pri:5, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:44Z" name="divListTest" finished-at="2024-09-07T15:19:45Z" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divListTest -->
+        <test-method signature="numOfTitleBarsTest()[pri:7, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:45Z" name="numOfTitleBarsTest" finished-at="2024-09-07T15:19:50Z" duration-ms="5173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numOfTitleBarsTest -->
+        <test-method signature="moreMenuListSizeTest()[pri:8, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:50Z" name="moreMenuListSizeTest" finished-at="2024-09-07T15:19:51Z" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreMenuListSizeTest -->
+        <test-method signature="getFactCheckPageLinkTest()[pri:9, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:51Z" name="getFactCheckPageLinkTest" finished-at="2024-09-07T15:19:54Z" duration-ms="2995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFactCheckPageLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.HomePageTest@778db7c5]" started-at="2024-09-07T15:19:54Z" name="tearDown" finished-at="2024-09-07T15:19:55Z" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ajkerpatrika.tests.HomePageTest -->
+    </test> <!-- Ajker Patrika Home Page Test -->
+    <test started-at="2024-09-07T15:19:55Z" name="Ajker Patrika Search Page Test" finished-at="2024-09-07T15:20:09Z" duration-ms="14010">
+      <class name="com.qa.ajkerpatrika.tests.SearchPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.SearchPageTest@5d01ea21]" started-at="2024-09-07T15:19:55Z" name="setup" finished-at="2024-09-07T15:20:02Z" duration-ms="6459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="searchPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.SearchPageTest@5d01ea21]" started-at="2024-09-07T15:20:02Z" name="searchPageSetup" finished-at="2024-09-07T15:20:08Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="6305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageSetup -->
+        <test-method signature="isSearchPageHeaderTest()[pri:1, instance:com.qa.ajkerpatrika.tests.SearchPageTest@5d01ea21]" started-at="2024-09-07T15:20:08Z" name="isSearchPageHeaderTest" finished-at="2024-09-07T15:20:08Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchPageHeaderTest -->
+        <test-method signature="webListSizeTest()[pri:2, instance:com.qa.ajkerpatrika.tests.SearchPageTest@5d01ea21]" started-at="2024-09-07T15:20:08Z" name="webListSizeTest" finished-at="2024-09-07T15:20:08Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webListSizeTest -->
+        <test-method signature="secTabTest()[pri:3, instance:com.qa.ajkerpatrika.tests.SearchPageTest@5d01ea21]" started-at="2024-09-07T15:20:08Z" name="secTabTest" finished-at="2024-09-07T15:20:08Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secTabTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.SearchPageTest@5d01ea21]" started-at="2024-09-07T15:20:08Z" name="tearDown" finished-at="2024-09-07T15:20:09Z" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ajkerpatrika.tests.SearchPageTest -->
+    </test> <!-- Ajker Patrika Search Page Test -->
+    <test started-at="2024-09-07T15:20:09Z" name="Ajker Patrika World Page Test" finished-at="2024-09-07T15:20:22Z" duration-ms="12764">
+      <class name="com.qa.ajkerpatrika.tests.WorldPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.WorldPageTest@3971f0fe]" started-at="2024-09-07T15:20:09Z" name="setup" finished-at="2024-09-07T15:20:17Z" duration-ms="7275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="WorldPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.WorldPageTest@3971f0fe]" started-at="2024-09-07T15:20:17Z" name="WorldPageSetup" finished-at="2024-09-07T15:20:19Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorldPageSetup -->
+        <test-method signature="worldPageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.WorldPageTest@3971f0fe]" started-at="2024-09-07T15:20:19Z" name="worldPageTitleTest" finished-at="2024-09-07T15:20:19Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- worldPageTitleTest -->
+        <test-method signature="worldListTest()[pri:2, instance:com.qa.ajkerpatrika.tests.WorldPageTest@3971f0fe]" started-at="2024-09-07T15:20:19Z" name="worldListTest" finished-at="2024-09-07T15:20:19Z" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- worldListTest -->
+        <test-method signature="getUsAndCanadaPageLinkTest()[pri:3, instance:com.qa.ajkerpatrika.tests.WorldPageTest@3971f0fe]" started-at="2024-09-07T15:20:19Z" name="getUsAndCanadaPageLinkTest" finished-at="2024-09-07T15:20:21Z" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsAndCanadaPageLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.WorldPageTest@3971f0fe]" started-at="2024-09-07T15:20:21Z" name="tearDown" finished-at="2024-09-07T15:20:22Z" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ajkerpatrika.tests.WorldPageTest -->
+    </test> <!-- Ajker Patrika World Page Test -->
+    <test started-at="2024-09-07T15:20:22Z" name="Ajker Patrika Country Page Test" finished-at="2024-09-07T15:20:34Z" duration-ms="11938">
+      <class name="com.qa.ajkerpatrika.tests.CountryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.CountryPageTest@540b0448]" started-at="2024-09-07T15:20:22Z" name="setup" finished-at="2024-09-07T15:20:28Z" duration-ms="5837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="countryPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.CountryPageTest@540b0448]" started-at="2024-09-07T15:20:28Z" name="countryPageSetup" finished-at="2024-09-07T15:20:31Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="2906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryPageSetup -->
+        <test-method signature="countryPageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.CountryPageTest@540b0448]" started-at="2024-09-07T15:20:31Z" name="countryPageTitleTest" finished-at="2024-09-07T15:20:31Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryPageTitleTest -->
+        <test-method signature="CountryListTest()[pri:2, instance:com.qa.ajkerpatrika.tests.CountryPageTest@540b0448]" started-at="2024-09-07T15:20:31Z" name="CountryListTest" finished-at="2024-09-07T15:20:31Z" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountryListTest -->
+        <test-method signature="getUsAndCanadaPageLinkTest()[pri:3, instance:com.qa.ajkerpatrika.tests.CountryPageTest@540b0448]" started-at="2024-09-07T15:20:31Z" name="getUsAndCanadaPageLinkTest" finished-at="2024-09-07T15:20:33Z" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsAndCanadaPageLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.CountryPageTest@540b0448]" started-at="2024-09-07T15:20:33Z" name="tearDown" finished-at="2024-09-07T15:20:34Z" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ajkerpatrika.tests.CountryPageTest -->
+    </test> <!-- Ajker Patrika Country Page Test -->
+  </suite> <!-- Ajker Patrika Test Suite -->
+</testng-results>

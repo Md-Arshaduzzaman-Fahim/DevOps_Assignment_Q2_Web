@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Open Cart Test Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.ajkerpatrika.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="1" name="Ajker Patrika Login Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.ajkerpatrika.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginPageRegisterLinkTest"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.ajkerpatrika.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Ajker Patrika Login Page Test(failed) -->
+  <test thread-count="1" name="Ajker Patrika Home Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.ajkerpatrika.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="getHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.ajkerpatrika.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Ajker Patrika Home Page Test(failed) -->
+</suite> <!-- Failed suite [Open Cart Test Suite] -->

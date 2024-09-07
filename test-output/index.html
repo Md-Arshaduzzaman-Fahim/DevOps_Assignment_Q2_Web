@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Ajker Patrika Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Ajker_Patrika_Test_Suite" class="navigator-link ">
+                    <span>E:\programs\eclipse\eclipse-workspace\DevOpsAssignmentQ2Web\src\test\resources\testrunners\testng_regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Ajker_Patrika_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Ajker_Patrika_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Ajker_Patrika_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Ajker_Patrika_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Ajker_Patrika_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Ajker_Patrika_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" class="hide-methods passed suite-Ajker_Patrika_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Ajker_Patrika_Test_Suite -->
+                      <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" class="show-methods passed suite-Ajker_Patrika_Test_Suite"> (show)</a> <!-- show-methods passed suite-Ajker_Patrika_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Ajker_Patrika_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.CountryPageTest" class="method navigator-link" hash-for-method="CountryListTest">CountryListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.CountryPageTest" class="method navigator-link" hash-for-method="countryPageTitleTest">countryPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="divListTest">divListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="getFactCheckPageLinkTest">getFactCheckPageLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="getHomePageTitleTest">getHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.WorldPageTest" class="method navigator-link" hash-for-method="getUsAndCanadaPageLinkTest">getUsAndCanadaPageLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.CountryPageTest" class="method navigator-link" hash-for-method="getUsAndCanadaPageLinkTest">getUsAndCanadaPageLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="isMoreMenuBtnExistTest">isMoreMenuBtnExistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.SearchPageTest" class="method navigator-link" hash-for-method="isSearchPageHeaderTest">isSearchPageHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageForgotpsswdLinkTest">loginPageForgotpsswdLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageRegisterLinkTest">loginPageRegisterLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="mainMenuListTest">mainMenuListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="moreMenuListSizeTest">moreMenuListSizeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="mostRedListTest">mostRedListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.HomePageTest" class="method navigator-link" hash-for-method="numOfTitleBarsTest">numOfTitleBarsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.SearchPageTest" class="method navigator-link" hash-for-method="secTabTest">secTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.SearchPageTest" class="method navigator-link" hash-for-method="webListSizeTest">webListSizeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.WorldPageTest" class="method navigator-link" hash-for-method="worldListTest">worldListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ajker_Patrika_Test_Suite" title="com.qa.ajkerpatrika.tests.WorldPageTest" class="method navigator-link" hash-for-method="worldPageTitleTest">worldPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Ajker_Patrika_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Ajker_Patrika_Test_Suite" class="panel Ajker_Patrika_Test_Suite">
+          <div class="suite-Ajker_Patrika_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ajkerpatrika.tests.CountryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountryListTest">
+                  </a> <!-- CountryListTest -->
+                  <span class="method-name">CountryListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="countryPageTitleTest">
+                  </a> <!-- countryPageTitleTest -->
+                  <span class="method-name">countryPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsAndCanadaPageLinkTest">
+                  </a> <!-- getUsAndCanadaPageLinkTest -->
+                  <span class="method-name">getUsAndCanadaPageLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ajker_Patrika_Test_Suite-class-passed -->
+          <div class="suite-Ajker_Patrika_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ajkerpatrika.tests.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isSearchPageHeaderTest">
+                  </a> <!-- isSearchPageHeaderTest -->
+                  <span class="method-name">isSearchPageHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secTabTest">
+                  </a> <!-- secTabTest -->
+                  <span class="method-name">secTabTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webListSizeTest">
+                  </a> <!-- webListSizeTest -->
+                  <span class="method-name">webListSizeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ajker_Patrika_Test_Suite-class-passed -->
+          <div class="suite-Ajker_Patrika_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ajkerpatrika.tests.WorldPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsAndCanadaPageLinkTest">
+                  </a> <!-- getUsAndCanadaPageLinkTest -->
+                  <span class="method-name">getUsAndCanadaPageLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="worldListTest">
+                  </a> <!-- worldListTest -->
+                  <span class="method-name">worldListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="worldPageTitleTest">
+                  </a> <!-- worldPageTitleTest -->
+                  <span class="method-name">worldPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ajker_Patrika_Test_Suite-class-passed -->
+          <div class="suite-Ajker_Patrika_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ajkerpatrika.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divListTest">
+                  </a> <!-- divListTest -->
+                  <span class="method-name">divListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFactCheckPageLinkTest">
+                  </a> <!-- getFactCheckPageLinkTest -->
+                  <span class="method-name">getFactCheckPageLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHomePageTitleTest">
+                  </a> <!-- getHomePageTitleTest -->
+                  <span class="method-name">getHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isMoreMenuBtnExistTest">
+                  </a> <!-- isMoreMenuBtnExistTest -->
+                  <span class="method-name">isMoreMenuBtnExistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mainMenuListTest">
+                  </a> <!-- mainMenuListTest -->
+                  <span class="method-name">mainMenuListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moreMenuListSizeTest">
+                  </a> <!-- moreMenuListSizeTest -->
+                  <span class="method-name">moreMenuListSizeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mostRedListTest">
+                  </a> <!-- mostRedListTest -->
+                  <span class="method-name">mostRedListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numOfTitleBarsTest">
+                  </a> <!-- numOfTitleBarsTest -->
+                  <span class="method-name">numOfTitleBarsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ajker_Patrika_Test_Suite-class-passed -->
+          <div class="suite-Ajker_Patrika_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ajkerpatrika.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageForgotpsswdLinkTest">
+                  </a> <!-- loginPageForgotpsswdLinkTest -->
+                  <span class="method-name">loginPageForgotpsswdLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageRegisterLinkTest">
+                  </a> <!-- loginPageRegisterLinkTest -->
+                  <span class="method-name">loginPageRegisterLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ajker_Patrika_Test_Suite-class-passed -->
+        </div> <!-- panel Ajker_Patrika_Test_Suite -->
+        <div panel-name="test-xml-Ajker_Patrika_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\programs\eclipse\eclipse-workspace\DevOpsAssignmentQ2Web\src\test\resources\testrunners\testng_regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; name=&quot;Ajker Patrika Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ajkerpatrika.listeners.TestAllureListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;Ajker Patrika Login Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.ajkerpatrika.tests.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ajker Patrika Login Test --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;Ajker Patrika Home Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.ajkerpatrika.tests.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ajker Patrika Home Page Test --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;Ajker Patrika Search Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.ajkerpatrika.tests.SearchPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ajker Patrika Search Page Test --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;Ajker Patrika World Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.ajkerpatrika.tests.WorldPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ajker Patrika World Page Test --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;Ajker Patrika Country Page Test&quot; verbose=&quot;4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.ajkerpatrika.tests.CountryPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ajker Patrika Country Page Test --&gt;
+&lt;/suite&gt; &lt;!-- Ajker Patrika Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Ajker_Patrika_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Ajker Patrika Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Ajker Patrika Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ajker Patrika Home Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ajker Patrika Search Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ajker Patrika World Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ajker Patrika Country Page Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Ajker_Patrika_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Ajker Patrika Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Ajker_Patrika_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Ajker Patrika Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Ajker_Patrika_Test_Suite');
+function tableData_Ajker_Patrika_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.qa.ajkerpatrika.tests.LoginPageTest')
+data.setCell(0, 3, 14498);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'numOfTitleBarsTest')
+data.setCell(1, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(1, 3, 5173);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getFactCheckPageLinkTest')
+data.setCell(2, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(2, 3, 2995);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getUsAndCanadaPageLinkTest')
+data.setCell(3, 2, 'com.qa.ajkerpatrika.tests.CountryPageTest')
+data.setCell(3, 3, 1722);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getUsAndCanadaPageLinkTest')
+data.setCell(4, 2, 'com.qa.ajkerpatrika.tests.WorldPageTest')
+data.setCell(4, 3, 1521);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginPageForgotpsswdLinkTest')
+data.setCell(5, 2, 'com.qa.ajkerpatrika.tests.LoginPageTest')
+data.setCell(5, 3, 1301);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'divListTest')
+data.setCell(6, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(6, 3, 1136);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'moreMenuListSizeTest')
+data.setCell(7, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(7, 3, 824);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CountryListTest')
+data.setCell(8, 2, 'com.qa.ajkerpatrika.tests.CountryPageTest')
+data.setCell(8, 3, 327);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'mainMenuListTest')
+data.setCell(9, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(9, 3, 320);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'worldListTest')
+data.setCell(10, 2, 'com.qa.ajkerpatrika.tests.WorldPageTest')
+data.setCell(10, 3, 247);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginPageTitleTest')
+data.setCell(11, 2, 'com.qa.ajkerpatrika.tests.LoginPageTest')
+data.setCell(11, 3, 223);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'mostRedListTest')
+data.setCell(12, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(12, 3, 153);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'webListSizeTest')
+data.setCell(13, 2, 'com.qa.ajkerpatrika.tests.SearchPageTest')
+data.setCell(13, 3, 128);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginPageRegisterLinkTest')
+data.setCell(14, 2, 'com.qa.ajkerpatrika.tests.LoginPageTest')
+data.setCell(14, 3, 79);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'isSearchPageHeaderTest')
+data.setCell(15, 2, 'com.qa.ajkerpatrika.tests.SearchPageTest')
+data.setCell(15, 3, 62);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'isMoreMenuBtnExistTest')
+data.setCell(16, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(16, 3, 35);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'secTabTest')
+data.setCell(17, 2, 'com.qa.ajkerpatrika.tests.SearchPageTest')
+data.setCell(17, 3, 18);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getHomePageTitleTest')
+data.setCell(18, 2, 'com.qa.ajkerpatrika.tests.HomePageTest')
+data.setCell(18, 3, 9);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'countryPageTitleTest')
+data.setCell(19, 2, 'com.qa.ajkerpatrika.tests.CountryPageTest')
+data.setCell(19, 3, 8);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'worldPageTitleTest')
+data.setCell(20, 2, 'com.qa.ajkerpatrika.tests.WorldPageTest')
+data.setCell(20, 3, 7);
+window.suiteTableData['Ajker_Patrika_Test_Suite']= { tableData: data, tableDiv: 'times-div-Ajker_Patrika_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-Ajker_Patrika_Test_Suite">
+              </div> <!-- times-div-Ajker_Patrika_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Ajker_Patrika_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Ajker Patrika Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Ajker_Patrika_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Ajker_Patrika_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ajkerpatrika.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">loginPageSetup</span>
+                <span class="method-start">11500 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">13619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageForgotpsswdLinkTest</span>
+                <span class="method-start">14005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageRegisterLinkTest</span>
+                <span class="method-start">15310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">15391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29893 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ajkerpatrika.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31050 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">homePageSetup</span>
+                <span class="method-start">36931 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">getHomePageTitleTest</span>
+                <span class="method-start">37787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mainMenuListTest</span>
+                <span class="method-start">37800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isMoreMenuBtnExistTest</span>
+                <span class="method-start">38122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mostRedListTest</span>
+                <span class="method-start">38160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divListTest</span>
+                <span class="method-start">38317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">numOfTitleBarsTest</span>
+                <span class="method-start">39455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">moreMenuListSizeTest</span>
+                <span class="method-start">44630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFactCheckPageLinkTest</span>
+                <span class="method-start">45457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48454 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ajkerpatrika.tests.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">49540 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">searchPageSetup</span>
+                <span class="method-start">55999 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">isSearchPageHeaderTest</span>
+                <span class="method-start">62304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webListSizeTest</span>
+                <span class="method-start">62368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secTabTest</span>
+                <span class="method-start">62498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62517 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ajkerpatrika.tests.WorldPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63557 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">WorldPageSetup</span>
+                <span class="method-start">70832 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">worldPageTitleTest</span>
+                <span class="method-start">73435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">worldListTest</span>
+                <span class="method-start">73448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsAndCanadaPageLinkTest</span>
+                <span class="method-start">73697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75220 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ajkerpatrika.tests.CountryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76329 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">countryPageSetup</span>
+                <span class="method-start">82166 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">countryPageTitleTest</span>
+                <span class="method-start">85072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CountryListTest</span>
+                <span class="method-start">85082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsAndCanadaPageLinkTest</span>
+                <span class="method-start">85411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87137 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Ajker Patrika Test Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.ajkerpatrika.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="4" name="Ajker Patrika Login Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.ajkerpatrika.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginPageRegisterLinkTest"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="loginPageForgotpsswdLinkTest"/>
+          <include name="loginPageSetup"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.ajkerpatrika.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Ajker Patrika Login Test(failed) -->
+</suite> <!-- Failed suite [Ajker Patrika Test Suite] -->

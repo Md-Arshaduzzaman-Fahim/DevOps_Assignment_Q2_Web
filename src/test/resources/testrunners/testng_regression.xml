@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ajker Patrika Test Suite" verbose="4" thread-count="4"
+	>
+
+
+
+	<listeners>
+		<listener
+			class-name="com.qa.ajkerpatrika.listeners.TestAllureListener" />
+	</listeners>
+	
+	
+	<test name="Ajker Patrika Login Test">
+		
+		<classes>
+			<class name="com.qa.ajkerpatrika.tests.LoginPageTest" />		
+		</classes>
+	</test>
+	
+	<test name="Ajker Patrika Home Page Test">
+		
+		<classes>
+			<class name="com.qa.ajkerpatrika.tests.HomePageTest" />		
+		</classes>
+	</test>
+	
+	
+	<test name="Ajker Patrika Search Page Test">
+		
+		<classes>
+			<class name="com.qa.ajkerpatrika.tests.SearchPageTest" />		
+		</classes>
+	</test>
+	
+
+	<test name="Ajker Patrika World Page Test">
+		
+		<classes>
+			<class name="com.qa.ajkerpatrika.tests.WorldPageTest" />		
+		</classes>
+	</test>
+
+
+	<test name="Ajker Patrika Country Page Test">
+		
+		<classes>
+			<class name="com.qa.ajkerpatrika.tests.CountryPageTest" />		
+		</classes>
+	</test>
+
+	
+
+	<!-- <test name="Open Cart Product Info Page Test"> <classes> <class name="com.qa.opencart.tests.ProductInfoPageTest" 
+		/> </classes> </test> -->
+
+
+	<!-- <test name="Open Cart Registration Page Test"> <classes> <class name="com.qa.opencart.tests.RegistrationPageTest" 
+		/> </classes> </test> -->
+
+</suite>
