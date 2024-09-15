@@ -16,7 +16,7 @@ public class Constants {
 	
 public static final int MORE_MENU_LIST_SIZE = 30;
 
-public static final int TITLE_BAR_NUMBER = 18;
+public static final int TITLE_BAR_NUMBER = 21;
 
 public static final int MOST_RED_NUMBER = 5;
 

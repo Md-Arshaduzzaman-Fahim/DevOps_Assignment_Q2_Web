@@ -53,7 +53,7 @@ private WebDriver driver;
 	}
 	
 	public LoginPage goToLoginPage() throws InterruptedException {
-		eleUtil.waitForElementToBeClickable(2, cancelAd).click();
+		//eleUtil.waitForElementToBeClickable(2, cancelAd).click();
 		eleUtil.doClick(loginIcon);
 		eleUtil.waitForElementVisible(loginBtn, 10).click();
 		
@@ -138,7 +138,7 @@ private WebDriver driver;
 	
 	
 	public SearchPage doSearch(String srcTxt) {
-		eleUtil.waitForElementToBeClickable(2, cancelAd).click();
+		//eleUtil.waitForElementToBeClickable(2, cancelAd).click();
 		eleUtil.doClick(searchBtn);
 		eleUtil.waitForElementToBeClickable(10, searchBar).sendKeys(srcTxt);
 		eleUtil.waitForElementToBeClickable(10, search).click();

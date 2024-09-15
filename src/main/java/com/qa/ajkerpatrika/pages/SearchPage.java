@@ -47,7 +47,7 @@ public class SearchPage {
 	
 	
 	public String secTab() {
-		return eleUtil.doElementGetText(secondTab);
+		return eleUtil.waitForElementVisible(secondTab,10).getText();
 	}
 	
 	
