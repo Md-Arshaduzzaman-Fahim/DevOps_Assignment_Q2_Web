@@ -1,173 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-07T15:51:23Z" name="Ajker Patrika Test Suite" finished-at="2024-09-07T15:52:44Z" duration-ms="81197">
+  <suite started-at="2024-09-16T02:08:59Z" name="Default suite" finished-at="2024-09-16T02:13:33Z" duration-ms="274069">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-09-07T15:51:23Z" name="Ajker Patrika Login Test" finished-at="2024-09-07T15:51:53Z" duration-ms="29673">
-      <class name="com.qa.ajkerpatrika.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.LoginPageTest@604b1e1d]" started-at="2024-09-07T15:51:23Z" name="setup" finished-at="2024-09-07T15:51:33Z" duration-ms="10217" status="PASS">
+    <test started-at="2024-09-16T02:08:59Z" name="Default test" finished-at="2024-09-16T02:13:33Z" duration-ms="274069">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:08:59Z" name="setUpClass" finished-at="2024-09-16T02:09:00Z" duration-ms="597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@90c01ab]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.LoginPageTest@604b1e1d]" started-at="2024-09-07T15:51:33Z" name="loginPageSetup" finished-at="2024-09-07T15:51:36Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="2693" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:09:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:09:26Z" duration-ms="25706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page title should be visible"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageSetup -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.LoginPageTest@604b1e1d]" started-at="2024-09-07T15:51:36Z" name="loginPageTitleTest" finished-at="2024-09-07T15:51:36Z" duration-ms="89" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:09:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:09:48Z" duration-ms="22561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Main menu list should m,atch expected list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginPageForgotpsswdLinkTest()[pri:2, instance:com.qa.ajkerpatrika.tests.LoginPageTest@604b1e1d]" started-at="2024-09-07T15:51:36Z" name="loginPageForgotpsswdLinkTest" finished-at="2024-09-07T15:51:37Z" duration-ms="1230" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:09:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:10:11Z" duration-ms="22945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Most red article number should match"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageForgotpsswdLinkTest -->
-        <test-method signature="loginPageRegisterLinkTest()[pri:3, instance:com.qa.ajkerpatrika.tests.LoginPageTest@604b1e1d]" started-at="2024-09-07T15:51:37Z" name="loginPageRegisterLinkTest" finished-at="2024-09-07T15:51:37Z" duration-ms="54" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:10:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:10:33Z" duration-ms="22000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["More menu button list should match expected list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageRegisterLinkTest -->
-        <test-method signature="loginTest()[pri:4, instance:com.qa.ajkerpatrika.tests.LoginPageTest@604b1e1d]" started-at="2024-09-07T15:51:37Z" name="loginTest" finished-at="2024-09-07T15:51:51Z" duration-ms="14043" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:10:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:10:54Z" duration-ms="21146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Division list should match expected list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.LoginPageTest@604b1e1d]" started-at="2024-09-07T15:51:51Z" name="tearDown" finished-at="2024-09-07T15:51:53Z" duration-ms="1143" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:10:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:11:20Z" duration-ms="25811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["number of title bars present should match expected"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.ajkerpatrika.tests.LoginPageTest -->
-    </test> <!-- Ajker Patrika Login Test -->
-    <test started-at="2024-09-07T15:51:53Z" name="Ajker Patrika Home Page Test" finished-at="2024-09-07T15:52:11Z" duration-ms="18062">
-      <class name="com.qa.ajkerpatrika.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:51:53Z" name="setup" finished-at="2024-09-07T15:51:58Z" duration-ms="5164" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:11:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:11:52Z" duration-ms="31824" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["forgot password link and register link should be there"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.linkText: পাসওয়ার্ড ভুলে গেছেন? (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10984, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 949d0f3a-dffd-4a41-ab26-eb0df7163741]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: পাসওয়ার্ড ভুলে গেছেন? (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10984, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 949d0f3a-dffd-4a41-ab26-eb0df7163741
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.ajkerpatrika.utils.ElementUtil.waitForElementToBeClickable(ElementUtil.java:313)
+at com.qa.ajkerpatrika.pages.LoginPage.isForgotPswdLinkExist(LoginPage.java:38)
+at com.qa.ajkerpatrika.stepdefs.LoginPageStepDef.forgot_password_link_should_be_there(LoginPageStepDef.java:66)
+at ✽.forgot password link should be there(file:///E:/programs/eclipse/eclipse-workspace/DevOpsAssignmentQ2Web/src/test/resources/features/loginpage.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="homePageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:51:58Z" name="homePageSetup" finished-at="2024-09-07T15:51:58Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="681" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:11:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:12:23Z" duration-ms="31339" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality for Ajkerpatrika"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'google_login')]/a (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24732, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 335bf418-ec72-4cb8-9158-512247102e8f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'google_login')]/a (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24732, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 335bf418-ec72-4cb8-9158-512247102e8f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.ajkerpatrika.utils.ElementUtil.waitForElementToBeClickable(ElementUtil.java:313)
+at com.qa.ajkerpatrika.pages.LoginPage.doLogin(LoginPage.java:44)
+at com.qa.ajkerpatrika.stepdefs.LoginPageStepDef.i_enter_email_and_password(LoginPageStepDef.java:77)
+at ✽.I enter email and password(file:///E:/programs/eclipse/eclipse-workspace/DevOpsAssignmentQ2Web/src/test/resources/features/loginpage.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageSetup -->
-        <test-method signature="getHomePageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:51:58Z" name="getHomePageTitleTest" finished-at="2024-09-07T15:51:59Z" duration-ms="102" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:12:23Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:12:47Z" duration-ms="23267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search bar should work"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality test"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getHomePageTitleTest -->
-        <test-method signature="mainMenuListTest()[pri:2, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:51:59Z" name="mainMenuListTest" finished-at="2024-09-07T15:51:59Z" duration-ms="160" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:12:47Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:13:10Z" duration-ms="23766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search page weblist number should match expected"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality test"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainMenuListTest -->
-        <test-method signature="isMoreMenuBtnExistTest()[pri:3, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:51:59Z" name="isMoreMenuBtnExistTest" finished-at="2024-09-07T15:51:59Z" duration-ms="130" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:13:10Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:13:33Z" duration-ms="23032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Image tab should be there"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality test"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isMoreMenuBtnExistTest -->
-        <test-method signature="mostRedListTest()[pri:4, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:51:59Z" name="mostRedListTest" finished-at="2024-09-07T15:51:59Z" duration-ms="159" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:13:33Z" name="tearDownClass" finished-at="2024-09-16T02:13:33Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mostRedListTest -->
-        <test-method signature="divListTest()[pri:5, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:51:59Z" name="divListTest" finished-at="2024-09-07T15:52:00Z" duration-ms="1091" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- divListTest -->
-        <test-method signature="numOfTitleBarsTest()[pri:7, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:52:00Z" name="numOfTitleBarsTest" finished-at="2024-09-07T15:52:05Z" duration-ms="5172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- numOfTitleBarsTest -->
-        <test-method signature="moreMenuListSizeTest()[pri:8, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:52:05Z" name="moreMenuListSizeTest" finished-at="2024-09-07T15:52:06Z" duration-ms="775" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moreMenuListSizeTest -->
-        <test-method signature="getFactCheckPageLinkTest()[pri:9, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:52:06Z" name="getFactCheckPageLinkTest" finished-at="2024-09-07T15:52:10Z" duration-ms="3626" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getFactCheckPageLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.HomePageTest@38c2c309]" started-at="2024-09-07T15:52:10Z" name="tearDown" finished-at="2024-09-07T15:52:11Z" duration-ms="980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.ajkerpatrika.tests.HomePageTest -->
-    </test> <!-- Ajker Patrika Home Page Test -->
-    <test started-at="2024-09-07T15:52:11Z" name="Ajker Patrika Search Page Test" finished-at="2024-09-07T15:52:23Z" duration-ms="12260">
-      <class name="com.qa.ajkerpatrika.tests.SearchPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.SearchPageTest@4beeb0e]" started-at="2024-09-07T15:52:11Z" name="setup" finished-at="2024-09-07T15:52:16Z" duration-ms="5058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="searchPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.SearchPageTest@4beeb0e]" started-at="2024-09-07T15:52:16Z" name="searchPageSetup" finished-at="2024-09-07T15:52:22Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="6045" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchPageSetup -->
-        <test-method signature="isSearchPageHeaderTest()[pri:1, instance:com.qa.ajkerpatrika.tests.SearchPageTest@4beeb0e]" started-at="2024-09-07T15:52:22Z" name="isSearchPageHeaderTest" finished-at="2024-09-07T15:52:22Z" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSearchPageHeaderTest -->
-        <test-method signature="webListSizeTest()[pri:2, instance:com.qa.ajkerpatrika.tests.SearchPageTest@4beeb0e]" started-at="2024-09-07T15:52:22Z" name="webListSizeTest" finished-at="2024-09-07T15:52:22Z" duration-ms="101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webListSizeTest -->
-        <test-method signature="secTabTest()[pri:3, instance:com.qa.ajkerpatrika.tests.SearchPageTest@4beeb0e]" started-at="2024-09-07T15:52:22Z" name="secTabTest" finished-at="2024-09-07T15:52:22Z" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secTabTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.SearchPageTest@4beeb0e]" started-at="2024-09-07T15:52:22Z" name="tearDown" finished-at="2024-09-07T15:52:23Z" duration-ms="985" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.ajkerpatrika.tests.SearchPageTest -->
-    </test> <!-- Ajker Patrika Search Page Test -->
-    <test started-at="2024-09-07T15:52:23Z" name="Ajker Patrika World Page Test" finished-at="2024-09-07T15:52:33Z" duration-ms="10526">
-      <class name="com.qa.ajkerpatrika.tests.WorldPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.WorldPageTest@7c84195]" started-at="2024-09-07T15:52:23Z" name="setup" finished-at="2024-09-07T15:52:28Z" duration-ms="5226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="WorldPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.WorldPageTest@7c84195]" started-at="2024-09-07T15:52:28Z" name="WorldPageSetup" finished-at="2024-09-07T15:52:31Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="2718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WorldPageSetup -->
-        <test-method signature="worldPageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.WorldPageTest@7c84195]" started-at="2024-09-07T15:52:31Z" name="worldPageTitleTest" finished-at="2024-09-07T15:52:31Z" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- worldPageTitleTest -->
-        <test-method signature="worldListTest()[pri:2, instance:com.qa.ajkerpatrika.tests.WorldPageTest@7c84195]" started-at="2024-09-07T15:52:31Z" name="worldListTest" finished-at="2024-09-07T15:52:31Z" duration-ms="248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- worldListTest -->
-        <test-method signature="getUsAndCanadaPageLinkTest()[pri:3, instance:com.qa.ajkerpatrika.tests.WorldPageTest@7c84195]" started-at="2024-09-07T15:52:31Z" name="getUsAndCanadaPageLinkTest" finished-at="2024-09-07T15:52:33Z" duration-ms="1398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUsAndCanadaPageLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.WorldPageTest@7c84195]" started-at="2024-09-07T15:52:33Z" name="tearDown" finished-at="2024-09-07T15:52:33Z" duration-ms="919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.ajkerpatrika.tests.WorldPageTest -->
-    </test> <!-- Ajker Patrika World Page Test -->
-    <test started-at="2024-09-07T15:52:33Z" name="Ajker Patrika Country Page Test" finished-at="2024-09-07T15:52:44Z" duration-ms="10633">
-      <class name="com.qa.ajkerpatrika.tests.CountryPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ajkerpatrika.tests.CountryPageTest@37864b77]" started-at="2024-09-07T15:52:33Z" name="setup" finished-at="2024-09-07T15:52:39Z" duration-ms="5298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="countryPageSetup()[pri:0, instance:com.qa.ajkerpatrika.tests.CountryPageTest@37864b77]" started-at="2024-09-07T15:52:39Z" name="countryPageSetup" finished-at="2024-09-07T15:52:41Z" depends-on-methods="com.qa.ajkerpatrika.tests.BaseTest.setup" duration-ms="2114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- countryPageSetup -->
-        <test-method signature="countryPageTitleTest()[pri:1, instance:com.qa.ajkerpatrika.tests.CountryPageTest@37864b77]" started-at="2024-09-07T15:52:41Z" name="countryPageTitleTest" finished-at="2024-09-07T15:52:41Z" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- countryPageTitleTest -->
-        <test-method signature="CountryListTest()[pri:2, instance:com.qa.ajkerpatrika.tests.CountryPageTest@37864b77]" started-at="2024-09-07T15:52:41Z" name="CountryListTest" finished-at="2024-09-07T15:52:41Z" duration-ms="468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CountryListTest -->
-        <test-method signature="getUsAndCanadaPageLinkTest()[pri:3, instance:com.qa.ajkerpatrika.tests.CountryPageTest@37864b77]" started-at="2024-09-07T15:52:41Z" name="getUsAndCanadaPageLinkTest" finished-at="2024-09-07T15:52:43Z" duration-ms="1592" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUsAndCanadaPageLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ajkerpatrika.tests.CountryPageTest@37864b77]" started-at="2024-09-07T15:52:43Z" name="tearDown" finished-at="2024-09-07T15:52:44Z" duration-ms="1139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.ajkerpatrika.tests.CountryPageTest -->
-    </test> <!-- Ajker Patrika Country Page Test -->
-  </suite> <!-- Ajker Patrika Test Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
