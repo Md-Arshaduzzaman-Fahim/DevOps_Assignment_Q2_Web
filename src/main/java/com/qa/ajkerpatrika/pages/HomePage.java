@@ -54,7 +54,8 @@ private WebDriver driver;
 	
 	public LoginPage goToLoginPage() throws InterruptedException {
 		//eleUtil.waitForElementToBeClickable(2, cancelAd).click();
-		eleUtil.doClick(loginIcon);
+	
+		eleUtil.waitForElementVisible(loginIcon,10).click();
 		eleUtil.waitForElementVisible(loginBtn, 10).click();
 		
 		

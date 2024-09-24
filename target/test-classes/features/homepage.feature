@@ -1,8 +1,8 @@
 Feature: Home page functionality for Ajkerpatrika
 
-	Scenario: Home page title should be visible
-		Given I am on home page
-		Then homepage title should be there
+#	Scenario: Home page title should be visible
+#		Given I am on home page
+#		Then homepage title should be there
 		
 		
 		

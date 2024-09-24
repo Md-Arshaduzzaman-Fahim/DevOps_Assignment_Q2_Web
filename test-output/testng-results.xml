@@ -1,43 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-16T02:08:59Z" name="Default suite" finished-at="2024-09-16T02:13:33Z" duration-ms="274069">
+  <suite started-at="2024-09-24T11:06:52Z" name="Default suite" finished-at="2024-09-24T11:08:31Z" duration-ms="99167">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-09-16T02:08:59Z" name="Default test" finished-at="2024-09-16T02:13:33Z" duration-ms="274069">
+    <test started-at="2024-09-24T11:06:52Z" name="Default test" finished-at="2024-09-24T11:08:31Z" duration-ms="99167">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:08:59Z" name="setUpClass" finished-at="2024-09-16T02:09:00Z" duration-ms="597" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:06:52Z" name="setUpClass" finished-at="2024-09-24T11:06:52Z" duration-ms="392" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@90c01ab]]>
+                <![CDATA[org.testng.TestRunner@234ce7ff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:09:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:09:26Z" duration-ms="25706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Home page title should be visible"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Home page functionality for Ajkerpatrika"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:09:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:09:48Z" duration-ms="22561" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:06:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:07:01Z" duration-ms="8673" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:09:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:10:11Z" duration-ms="22945" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:07:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:07:08Z" duration-ms="6707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:10:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:10:33Z" duration-ms="22000" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:07:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:07:17Z" duration-ms="9039" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:10:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:10:54Z" duration-ms="21146" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:07:17Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:07:24Z" duration-ms="6832" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:10:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:11:20Z" duration-ms="25811" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:07:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:07:35Z" duration-ms="11767" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -114,10 +98,27 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [21] but found [18]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [21] but found [18]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.qa.ajkerpatrika.stepdefs.HomePageStepDef.title_bar_number_should_match_expected_number(HomePageStepDef.java:77)
+at ✽.title bar number should match expected number(file:///E:/programs/eclipse/eclipse-workspace/DevOpsAssignmentQ2Web/src/test/resources/features/homepage.feature:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:11:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:11:52Z" duration-ms="31824" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:07:35Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:07:45Z" duration-ms="9199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,35 +131,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.linkText: পাসওয়ার্ড ভুলে গেছেন? (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10984, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 949d0f3a-dffd-4a41-ab26-eb0df7163741]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: পাসওয়ার্ড ভুলে গেছেন? (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10984, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 949d0f3a-dffd-4a41-ab26-eb0df7163741
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.qa.ajkerpatrika.utils.ElementUtil.waitForElementToBeClickable(ElementUtil.java:313)
-at com.qa.ajkerpatrika.pages.LoginPage.isForgotPswdLinkExist(LoginPage.java:38)
-at com.qa.ajkerpatrika.stepdefs.LoginPageStepDef.forgot_password_link_should_be_there(LoginPageStepDef.java:66)
-at ✽.forgot password link should be there(file:///E:/programs/eclipse/eclipse-workspace/DevOpsAssignmentQ2Web/src/test/resources/features/loginpage.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:11:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:12:23Z" duration-ms="31339" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:07:45Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:08:03Z" duration-ms="18236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,35 +147,10 @@ at ✽.forgot password link should be there(file:///E:/programs/eclipse/eclipse-
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'google_login')]/a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24732, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 335bf418-ec72-4cb8-9158-512247102e8f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'google_login')]/a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24732, moz:profile: C:\Users\88018\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 335bf418-ec72-4cb8-9158-512247102e8f
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.qa.ajkerpatrika.utils.ElementUtil.waitForElementToBeClickable(ElementUtil.java:313)
-at com.qa.ajkerpatrika.pages.LoginPage.doLogin(LoginPage.java:44)
-at com.qa.ajkerpatrika.stepdefs.LoginPageStepDef.i_enter_email_and_password(LoginPageStepDef.java:77)
-at ✽.I enter email and password(file:///E:/programs/eclipse/eclipse-workspace/DevOpsAssignmentQ2Web/src/test/resources/features/loginpage.feature:12)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:12:23Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:12:47Z" duration-ms="23267" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:08:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:08:12Z" duration-ms="8946" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +166,7 @@ at ✽.I enter email and password(file:///E:/programs/eclipse/eclipse-workspace/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:12:47Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:13:10Z" duration-ms="23766" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:08:12Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:08:22Z" duration-ms="9865" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,7 +182,7 @@ at ✽.I enter email and password(file:///E:/programs/eclipse/eclipse-workspace/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:13:10Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-16T02:13:33Z" duration-ms="23032" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:08:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-24T11:08:31Z" duration-ms="9441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,7 +198,7 @@ at ✽.I enter email and password(file:///E:/programs/eclipse/eclipse-workspace/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-16T02:13:33Z" name="tearDownClass" finished-at="2024-09-16T02:13:33Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4743a322]" started-at="2024-09-24T11:08:31Z" name="tearDownClass" finished-at="2024-09-24T11:08:31Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

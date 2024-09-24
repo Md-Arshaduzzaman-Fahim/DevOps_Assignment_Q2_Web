@@ -24,76 +24,57 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class HomePageStepDef {
-	DriverFactory df;
-	Properties prop;
-	WebDriver driver;
+WebDriverContainer container;
 	
-	LoginPage loginpage;
-	HomePage homepage;
-	SearchPage searchpage;
-	WorldPage worldpage;
-	CountryPage countrypage;
-	UsAndCanadaPage usandcanadapage;
-	FactCheckPage factcheckpage;
-	DhakaPage dhakapage;
-		
-	
-	@Before
-	public void setup() {
-		df = new DriverFactory();
-		prop = df.init_prop();
-		driver = df.init_driver(prop);
-		
-		
+	public HomePageStepDef(WebDriverContainer container) {
+		this.container = container;
 	}
+
 	
-	@After
-	public void tearDown() {
-		driver.quit();
-	}
-	
+
 	
 	
 	@Given("I am on home page")
 	public void i_am_on_home_page() {
-		homepage = new HomePage(driver);
-	}
-
-	@Then("homepage title should be there")
-	public void homepage_title_should_be_there() {
-		String actualTitle = homepage.getHomePageTitle();
+		String actualTitle = container.homepage.getHomePageTitle();
 		Assert.assertEquals(actualTitle, Constants.HOME_PAGE_TITTLE);
 	}
 
+//	@Then("homepage title should be there")
+//	public void homepage_title_should_be_there() {
+//		String actualTitle = container.homepage.getHomePageTitle();
+//		Assert.assertEquals(actualTitle, Constants.HOME_PAGE_TITTLE);
+//	}
+
 	@Then("main menu list should match expected list")
 	public void main_menu_list_should_match_expected_list() {
-		List<String> mainMenuListVal = homepage.mainMenuList();
+		List<String> mainMenuListVal = container.homepage.mainMenuList();
 		Assert.assertEquals(mainMenuListVal, Constants.getExpectedmenuList());
 	}
 
 	@Then("most red number should be same as expected")
 	public void most_red_number_should_be_same_as_expected() {
-		Assert.assertEquals(homepage.mostRedList(), Constants.MOST_RED_NUMBER);
+		Assert.assertEquals(container.homepage.mostRedList(), Constants.MOST_RED_NUMBER);
 	}
 
 	@When("I press more menu button")
 	public void i_press_more_menu_button() {
-		Assert.assertTrue(homepage.isMoreMenuBtnExist());
+		Assert.assertTrue(container.homepage.isMoreMenuBtnExist());
 	}
 
 	@Then("List should match expected list")
 	public void list_should_match_expected_list() {
-		Assert.assertEquals(homepage.moreMenuListSize(), Constants.MORE_MENU_LIST_SIZE);
+		Assert.assertEquals(container.homepage.moreMenuListSize(), Constants.MORE_MENU_LIST_SIZE);
 	}
 
 	@Then("Div list should match expected list")
 	public void div_list_should_match_expected_list() {
-		Assert.assertEquals(homepage.divList(), Constants.getDivisionList());
+		Assert.assertEquals(container.homepage.divList(), Constants.getDivisionList());
 	}
 
 	@Then("title bar number should match expected number")
 	public void title_bar_number_should_match_expected_number() throws InterruptedException {
-		Assert.assertEquals(homepage.numOfTitleBars(), Constants.TITLE_BAR_NUMBER);
+		Assert.assertEquals(container.homepage.numOfTitleBars(), Constants.TITLE_BAR_NUMBER);
 	}
 	
 	
